@@ -6,9 +6,7 @@ Criei este Study Hub para manter uma visão clara do que estou estudando e do qu
 
 ## Interesses atuais
 
-- Desenvolvimento de software
-- Back-end e arquitetura
+- Back-end
 - Segurança da informação
-- Inteligência artificial e automação
 
 Esses interesses podem mudar durante o curso. A proposta é atualizar esta página conforme eu conhecer novas áreas e ganhar experiência prática.

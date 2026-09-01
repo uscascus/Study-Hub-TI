@@ -5,7 +5,7 @@
 **Nome:** Lucas Coutinho  
 **Curso:** Ciência da Computação  
 **Instituição:** CEUB  
-**Polo/Turma:** CEUB - turma ou período ainda não informado  
+**Polo/Turma:** CEUB - Turma A - 0726  
 **E-mail:** [lucascoutinhoc.contato@gmail.com](mailto:lucascoutinhoc.contato@gmail.com)  
 **LinkedIn:** [Lucas Coutinho](https://www.linkedin.com/in/lucas-coutinho-chaul-27a139268/)
 
@@ -19,10 +19,8 @@ Minha meta é registrar a evolução de forma honesta, incluindo tentativas, cor
 
 ### Interesses
 
-- Desenvolvimento de software
-- Back-end e arquitetura
+- Back-end
 - Segurança da informação
-- Inteligência artificial e automação
 
 ### Propósito
 
@@ -81,7 +79,7 @@ Escolhi Ciência da Computação porque gosto de entender como os programas func
 
 ### 1:15 a 2:05 - interesses
 
-Hoje, as áreas que mais me interessam são desenvolvimento de software, back-end, segurança da informação e automação. Em desenvolvimento, quero aprender a transformar uma ideia em algo que realmente funcione. No back-end, quero entender melhor APIs, bancos de dados e a organização dos serviços. Segurança também me chama atenção porque não basta um sistema funcionar: ele precisa proteger os dados e os usuários.
+As duas áreas que mais me interessam hoje são back-end e segurança da informação. No back-end, quero entender melhor como as regras de negócio, as APIs e os bancos de dados se conectam para manter um sistema funcionando. Segurança me chama atenção porque não basta uma aplicação entregar o resultado esperado: ela também precisa proteger os dados e reduzir riscos para os usuários. Quero estudar as duas áreas em conjunto, porque decisões tomadas na estrutura de um sistema podem facilitar ou dificultar sua proteção.
 
 ### 2:05 a 3:00 - documento e matriz
 
