@@ -33,10 +33,8 @@ A organização também vai facilitar revisões e a escolha dos melhores projeto
 | Semestre / módulo | Disciplina | Tipo de material | Justificativa |
 | --- | --- | --- | --- |
 | 1º módulo | Bootcamp I | Planejamento do Study Hub e entregas do projeto | Define a base de organização para o restante do curso |
-| 1º módulo | Disciplina atual - a informar | Resumos, exercícios e atividades | Consolida os conceitos estudados no semestre |
-| 1º módulo | Disciplina atual - a informar | Anotações, exercícios resolvidos e revisões | Facilita a revisão e mostra a aplicação do conteúdo |
-| 2º módulo | Disciplina futura - a informar | Projetos práticos e documentação | Amplia o portfólio com trabalhos mais completos |
-| 2º módulo | Disciplina futura - a informar | Estudos de caso, códigos e reflexões | Relaciona teoria, prática e objetivos de carreira |
+
+Como esta é a fase inicial, a matriz começa pelo Bootcamp I. O mesmo padrão poderá ser reaproveitado conforme novas disciplinas e projetos forem incorporados ao repositório.
 
 ## 3. Arquitetura do GitHub
 
@@ -97,8 +95,8 @@ Na prática, essa organização vai facilitar revisões e mostrar o que eu já c
 
 Esta é a base do meu Study Hub. A partir daqui, vou alimentar as pastas durante as disciplinas e revisar a organização no fim de cada módulo. Obrigado por acompanhar a apresentação.
 
-## 5. Links da entrega
+## 5. Materiais da entrega
 
-- Google Docs: pendente
 - GitHub: [https://github.com/uscascus/Study-Hub-TI](https://github.com/uscascus/Study-Hub-TI)
-- YouTube: pendente
+- PDF: disponível na pasta `entrega`
+- Pitch: roteiro organizado na seção 4 deste documento
