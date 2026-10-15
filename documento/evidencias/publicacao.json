@@ -93,7 +93,14 @@
     }
   ],
   "pending": [
-    "Adicionar o projeto ao LinkedIn",
     "Gravar e publicar a apresentação no YouTube e incluir a URL no relatório"
-  ]
+  ],
+  "linkedin": {
+    "verified_at": "2026-10-15T13:25:02.951676-03:00",
+    "url": "https://www.linkedin.com/in/lucas-coutinho-chaul-27a139268/details/projects/",
+    "title": "Study Hub TI - Portfólio acadêmico e planejador de estudos",
+    "association": "UniCEUB - Centro Universitário de Brasília",
+    "portfolio_and_code_in_description": true,
+    "evidence": "linkedin-projeto.png"
+  }
 }

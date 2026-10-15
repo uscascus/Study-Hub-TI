@@ -2,9 +2,9 @@
 
 Meu perfil: https://www.linkedin.com/in/lucas-coutinho-chaul-27a139268/
 
-O portfólio já tem um link para meu perfil. Ainda falta adicionar o projeto ao LinkedIn.
+Adicionei o Study Hub à seção Projetos do meu perfil em 15/10/2026. O cadastro está associado ao UniCEUB e inclui os endereços do portfólio e do código na descrição. O portfólio também tem um link para meu perfil.
 
-## Conteúdo para a seção Projetos
+## Projeto cadastrado
 
 **Título:** Study Hub TI - Portfólio acadêmico e planejador de estudos
 
@@ -16,7 +16,11 @@ O portfólio já tem um link para meu perfil. Ainda falta adicionar o projeto ao
 
 ## Registro da entrega
 
-Após adicionar o projeto, vou registrar a seção do perfil e incluir essa informação no relatório.
+Projeto salvo e conferido no perfil: https://www.linkedin.com/in/lucas-coutinho-chaul-27a139268/details/projects/
+
+Captura da seção: [Projeto no LinkedIn](evidencias/linkedin-projeto.png).
+
+O LinkedIn não gerou a prévia dos links como mídia. Os dois endereços foram incluídos na descrição.
 
 ## Texto opcional para publicação
 

@@ -57,6 +57,7 @@ A etapa intermediária está na branch `Pitu/bootcamp-intermediaria`, baseada no
 - `v1.0.0`: primeira versão do portfólio e do planejador.
 - `v1.1.0`: documentação, apresentação e entrega intermediária revisadas.
 - `v1.1.1`: revisão dos textos do site e da entrega.
+- `v1.1.2`: projeto adicionado ao LinkedIn e relatório atualizado.
 - Histórico e decisões: [CHANGELOG](CHANGELOG.md) e [planejamento](documento/Planejamento_Intermediaria.md).
 - Contribuições: consulte [CONTRIBUTING.md](CONTRIBUTING.md). Sugestões e problemas podem ser registrados em [Issues](https://github.com/uscascus/Study-Hub-TI/issues).
 
@@ -64,10 +65,10 @@ A etapa intermediária está na branch `Pitu/bootcamp-intermediaria`, baseada no
 
 - [Relatório editável](documento/Etapa_Intermediaria_Lucas_Coutinho.md)
 - [Slides e roteiro de cinco minutos](docs/materiais/apresentacao.html)
-- [Texto e orientações para integração no LinkedIn](documento/Integracao_LinkedIn.md)
+- [Registro da integração no LinkedIn](documento/Integracao_LinkedIn.md)
 - [Mapa de requisitos e verificação](02_Disciplinas_Atuais/Bootcamp_I/Atividades_e_Entregas/Etapa_Intermediaria/README.md)
 
-Ainda falta adicionar o projeto ao meu LinkedIn e publicar o vídeo da apresentação no YouTube.
+O projeto foi adicionado à seção Projetos do meu LinkedIn em 15/10/2026, com os endereços do portfólio e do código. Ainda falta gravar e publicar o vídeo da apresentação no YouTube e incluir o link no relatório.
 
 ## Privacidade e limites
 

@@ -8,4 +8,4 @@ O documento foi organizado em seções curtas, com tabelas, árvore de pastas e 
 
 [Abrir o PDF da etapa intermediária](Study_Hub_Etapa_Intermediaria_Lucas_Coutinho.pdf).
 
-O relatório reúne a organização do repositório, os projetos, o histórico de versões, os testes e a apresentação. Falta adicionar o projeto ao LinkedIn e publicar o vídeo no YouTube. O texto está em `documento/Etapa_Intermediaria_Lucas_Coutinho.md`, e o PDF é gerado por `scripts/build_report.py`.
+O relatório reúne a organização do repositório, os projetos, o histórico de versões, os testes e a apresentação. O projeto já está no LinkedIn. Falta gravar e publicar o vídeo no YouTube e incluir o link no relatório. O texto está em `documento/Etapa_Intermediaria_Lucas_Coutinho.md`, e o PDF é gerado por `scripts/build_report.py`.

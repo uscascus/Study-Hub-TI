@@ -28,7 +28,7 @@ O projeto parte da estrutura e do documento da etapa inicial. Nesta etapa, acres
 
 ## Estratégia de versões
 
-`v1.0.0` registra a primeira versão do site e do planejador. `v1.1.0` reúne a documentação e a entrega. `v1.1.1` traz a revisão dos textos. Cada tag permite consultar o projeto como ele estava naquela versão.
+`v1.0.0` registra a primeira versão do site e do planejador. `v1.1.0` reúne a documentação e a entrega. `v1.1.1` traz a revisão dos textos. `v1.1.2` registra a inclusão do projeto no LinkedIn. Cada tag permite consultar o projeto como ele estava naquela versão.
 
 ## Critérios de aceitação
 

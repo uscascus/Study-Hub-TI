@@ -1,5 +1,10 @@
 # Histórico de versões
 
+## 1.1.2 - 15/10/2026
+
+- Registra a inclusão do Study Hub na seção Projetos do LinkedIn.
+- Atualiza o relatório e as pendências da entrega.
+
 ## 1.1.1 - 15/10/2026
 
 - Revisa os textos do site, da apresentação e do relatório.

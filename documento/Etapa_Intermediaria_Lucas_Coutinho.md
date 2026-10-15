@@ -20,7 +20,7 @@ O Study Hub reúne atividades, projetos e documentos em um repositório organiza
 **Código da etapa intermediária**
 [https://github.com/uscascus/Study-Hub-TI/tree/Pitu/bootcamp-intermediaria](https://github.com/uscascus/Study-Hub-TI/tree/Pitu/bootcamp-intermediaria)
 
-O site está publicado. Ainda falta adicionar o projeto ao meu LinkedIn e gravar a apresentação no YouTube.
+O site está publicado e o projeto foi adicionado ao meu LinkedIn. Ainda falta gravar e publicar a apresentação no YouTube.
 
 Prazo indicado no enunciado: 17/10/2026, às 23h55.
 
@@ -90,6 +90,7 @@ Branch de trabalho | Pitu/bootcamp-intermediaria: desenvolvimento e publicação
 Versão 1.0.0 | Primeira versão do portfólio, planejador e testes.
 Versão 1.1.0 | Documentação, apresentação e relatório intermediário.
 Versão 1.1.1 | Revisão dos textos do site e da entrega.
+Versão 1.1.2 | Registro do projeto no LinkedIn e atualização do relatório.
 
 ### Fluxo de trabalho
 
@@ -134,13 +135,13 @@ BOOTCAMP I / 05
 
 ### Integração com o perfil profissional
 
-O site e o README têm um link para meu LinkedIn. Ainda vou adicionar o Study Hub à seção de projetos do perfil. A descrição que usarei está em documento/Integracao_LinkedIn.md.
+Adicionei o Study Hub à seção Projetos do meu LinkedIn em 15/10/2026, associado ao UniCEUB. A descrição apresenta o trabalho do Bootcamp I e inclui os endereços do portfólio e do código. O site e o README também têm um link para meu perfil.
 
 **Projeto:** Study Hub TI - Portfólio acadêmico e planejador de estudos.
 **Descrição:** Projeto desenvolvido no Bootcamp I de Ciência da Computação no CEUB para organizar atividades e documentar minha evolução. Inclui portfólio no GitHub Pages e planejador com JavaScript, armazenamento local e testes.
 
-**Perfil profissional**
-[https://www.linkedin.com/in/lucas-coutinho-chaul-27a139268/](https://www.linkedin.com/in/lucas-coutinho-chaul-27a139268/)
+**Projeto no perfil profissional**
+[https://www.linkedin.com/in/lucas-coutinho-chaul-27a139268/details/projects/](https://www.linkedin.com/in/lucas-coutinho-chaul-27a139268/details/projects/)
 
 ### Apresentação de cinco minutos
 
@@ -166,18 +167,17 @@ Requisito do desafio | Evidência e estado
 --- | ---
 Planejamento e diretórios | Estrutura mantida e ampliada; planejamento e READMEs disponíveis.
 Projeto web e versão 1.0 | Portfólio e planejador, com commits e tags no GitHub.
-Alterações enviadas | Branch intermediária publicada, com revisão na versão 1.1.1.
+Alterações enviadas | Branch intermediária publicada, com revisão na versão 1.1.2.
 Documentação por projeto | README do portfólio, README do planejador e guia de contribuição.
 Repositório público e Pages | Repositório público e site HTTPS verificado.
-Integração com LinkedIn | Link no site. Falta adicionar o projeto ao meu perfil.
+Integração com LinkedIn | Projeto adicionado ao perfil, com descrição e endereços do portfólio e do código.
 Apresentação no YouTube | Slides e roteiro prontos. Gravação, publicação e URL pendentes.
 Entrega individual em PDF | Relatório com os projetos, testes e links da entrega.
 
 ### Falta concluir
 
-1. Adicionar o projeto ao meu LinkedIn.
-2. Gravar e publicar a apresentação no YouTube.
-3. Incluir o link do vídeo e o registro do LinkedIn neste relatório antes do envio, até 17/10/2026 às 23h55.
+1. Gravar e publicar a apresentação no YouTube.
+2. Incluir o link do vídeo neste relatório e enviar a entrega até 17/10/2026 às 23h55.
 
 ### Próximas evoluções
 
