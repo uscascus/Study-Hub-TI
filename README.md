@@ -58,13 +58,14 @@ A etapa intermediária está na branch `Pitu/bootcamp-intermediaria`, baseada no
 - `v1.1.0`: documentação, apresentação e entrega intermediária revisadas.
 - `v1.1.1`: revisão dos textos do site e da entrega.
 - `v1.1.2`: projeto adicionado ao LinkedIn e relatório atualizado.
+- `v1.1.3`: guia de gravação com links, prints e falas por etapa.
 - Histórico e decisões: [CHANGELOG](CHANGELOG.md) e [planejamento](documento/Planejamento_Intermediaria.md).
 - Contribuições: consulte [CONTRIBUTING.md](CONTRIBUTING.md). Sugestões e problemas podem ser registrados em [Issues](https://github.com/uscascus/Study-Hub-TI/issues).
 
 ## Materiais da etapa intermediária
 
 - [Relatório editável](documento/Etapa_Intermediaria_Lucas_Coutinho.md)
-- [Slides e roteiro de cinco minutos](docs/materiais/apresentacao.html)
+- [Guia de gravação: links, prints e roteiro de cinco minutos](docs/materiais/apresentacao.html)
 - [Registro da integração no LinkedIn](documento/Integracao_LinkedIn.md)
 - [Mapa de requisitos e verificação](02_Disciplinas_Atuais/Bootcamp_I/Atividades_e_Entregas/Etapa_Intermediaria/README.md)
 

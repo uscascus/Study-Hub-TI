@@ -1,5 +1,10 @@
 # Histórico de versões
 
+## 1.1.3 - 15/10/2026
+
+- Transforma a apresentação em um guia de gravação com seis etapas.
+- Inclui links diretos, oito capturas de tela e falas para acompanhar cada demonstração.
+
 ## 1.1.2 - 15/10/2026
 
 - Registra a inclusão do Study Hub na seção Projetos do LinkedIn.
