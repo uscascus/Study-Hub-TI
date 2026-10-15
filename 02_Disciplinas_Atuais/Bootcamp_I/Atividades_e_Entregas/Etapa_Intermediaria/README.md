@@ -11,7 +11,7 @@
 - [Portfólio no GitHub Pages](https://uscascus.github.io/Study-Hub-TI/)
 - [Código desta etapa](https://github.com/uscascus/Study-Hub-TI/tree/Pitu/bootcamp-intermediaria)
 - [Slides e roteiro](../../../../docs/materiais/apresentacao.html)
-- [Texto para LinkedIn](../../../../documento/Integracao_LinkedIn.md)
+- [Registro no LinkedIn](../../../../documento/Integracao_LinkedIn.md)
 
 ## Requisitos e evidências
 
@@ -19,11 +19,11 @@
 | --- | --- |
 | Planejamento e diretórios | README principal e documento/Planejamento_Intermediaria.md |
 | Projeto inicial web e versão 1.0 | Código em docs, histórico de commits e tag v1.0.0 |
-| Alterações e envio ao GitHub | Branch Pitu/bootcamp-intermediaria e tag v1.1.0 |
+| Alterações e envio ao GitHub | Branch Pitu/bootcamp-intermediaria e tag v1.1.2 |
 | README por projeto | Portfólio web e Planejador de estudos |
 | Repositório público | https://github.com/uscascus/Study-Hub-TI |
 | GitHub Pages | Pasta /docs da branch intermediária |
-| Integração com LinkedIn | Link no site; falta adicionar o projeto ao meu perfil |
+| Integração com LinkedIn | Projeto adicionado ao perfil, com descrição e endereços do portfólio e do código |
 | Apresentação de cinco minutos | Slides e roteiro prontos; vídeo no YouTube pendente |
 | PDF individual | Relatório na pasta entrega |
 
@@ -35,6 +35,5 @@ Para gerar o relatório: `python scripts/build_report.py --published` (requer re
 
 ## Falta concluir
 
-- Adicionar o projeto ao meu LinkedIn.
 - Gravar e publicar a apresentação no YouTube.
 - Incluir o link do vídeo no relatório antes do envio.
