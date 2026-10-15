@@ -5,12 +5,11 @@ Run from any directory. Add --published only after checking the live Pages site.
 from pathlib import Path
 import argparse
 import shutil
-from html import escape
-from reportlab.pdfgen import canvas
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, Image, Preformatted, KeepTogether
+from html import escape, unescape
+import re
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, Image, Preformatted
 from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-from reportlab.lib.enums import TA_LEFT
 from reportlab.lib.pagesizes import A4
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -35,18 +34,20 @@ styles.add(ParagraphStyle(name='SmallCustom', fontName='Helvetica', fontSize=8.5
 styles.add(ParagraphStyle(name='CellCustom', fontName='Helvetica', fontSize=9, leading=13, textColor=INK))
 styles.add(ParagraphStyle(name='MonoCustom', fontName='Courier', fontSize=8.2, leading=13, textColor=INK, backColor=PAPER, borderPadding=12, spaceAfter=14))
 story = []
-md = ['# Study Hub TI - Entrega intermediária', '', 'Lucas Coutinho | Ciência da Computação | CEUB | Turma A - 0726', '', 'Data: 15/10/2026', '']
+md = []
 
 def p(text, style='BodyCustom'):
     story.append(Paragraph(text, styles[style]))
-    md.extend([text.replace('<b>', '**').replace('</b>', '**').replace('<br/>', '\n'), ''])
+    clean = re.sub(r'<link href="([^"]+)"[^>]*>(.*?)</link>', lambda m: f'[{m[2]}]({m[1]})', text)
+    clean = unescape(clean.replace('<b>', '**').replace('</b>', '**').replace('<br/>', '\n'))
+    prefix = {'TitleCustom': '# ', 'H1Custom': '## ', 'H2Custom': '### '}.get(style, '')
+    md.extend([prefix + clean, ''])
 
 def heading(index, title):
     if story:
         story.append(PageBreak())
     p(f'BOOTCAMP I / {index:02d}', 'Kicker')
     p(title, 'H1Custom')
-    md.extend(['## ' + title, ''])
 
 def sub(title):
     p(title, 'H2Custom')
@@ -109,7 +110,7 @@ if shot.exists():
     image.drawHeight = 487 * image.imageHeight / image.imageWidth
     image.drawWidth = 487
     story.append(image)
-    p('Figura 1. Página inicial do portfólio em revisão local. Conteúdo e foto partem dos materiais já existentes no Study Hub.', 'SmallCustom')
+    p('Figura 1. Página inicial do portfólio publicado no GitHub Pages. Conteúdo e foto partem dos materiais já existentes no Study Hub.', 'SmallCustom')
 sub('Pessoal: planejador de estudos')
 p('Aplicação em JavaScript que permite adicionar tarefas com prazo opcional, concluir e reabrir, filtrar por situação e excluir. Os dados ficam no localStorage do navegador. As regras de dados são separadas da interface para permitir testes sem dependências externas.')
 link('Experimentar o planejador', SITE + 'projetos/planejador/')

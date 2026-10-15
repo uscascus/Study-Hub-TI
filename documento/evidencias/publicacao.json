@@ -1,0 +1,99 @@
+{
+  "verified_at": "2026-10-15T05:19:51.579146-03:00",
+  "url": "https://uscascus.github.io/Study-Hub-TI/",
+  "source": {
+    "branch": "Pitu/bootcamp-intermediaria",
+    "path": "/docs"
+  },
+  "build_status": "built",
+  "build_commit": "be11548fd23e10a527245d5f0d7ba8a367cfef83",
+  "main_unchanged": "d3c98944091490b2404aa89d10596c099c2c9141",
+  "model_tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "local_links": {
+    "html_pages": 3,
+    "local_targets": 55,
+    "errors": 0
+  },
+  "browser_verified": [
+    "add_with_due_date",
+    "complete",
+    "filter_pending",
+    "reload_persistence",
+    "reopen",
+    "delete",
+    "desktop_1366",
+    "mobile_390"
+  ],
+  "resources": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "sha256": "efdc6826d3beab3afb25c05dd4eec3388fb9dfaf32862380bcc5652e03497025",
+      "matches_committed_blob": true
+    },
+    {
+      "path": "assets/style.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8",
+      "sha256": "88c51b526d876511af98040f06f18ffd93bcb74f7f9f8824092bc647a4cd6225",
+      "matches_committed_blob": true
+    },
+    {
+      "path": "assets/lucas.webp",
+      "status": 200,
+      "type": "image/webp",
+      "sha256": "3a668cdea3b035839ec9933e6229f0bd2a956567e17f9d13f54739b636dc5aaa",
+      "matches_committed_blob": true
+    },
+    {
+      "path": "assets/favicon.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "sha256": "c80ecaf8c281f2ceae982b5aadb82ad3181ff95ca02273d8a93a43154008bcf1",
+      "matches_committed_blob": true
+    },
+    {
+      "path": "projetos/planejador/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "sha256": "9f35fb178b43e4d7e68ce1e144443baa51f6d1b5dfa8da2e56b275156bf8cbdf",
+      "matches_committed_blob": true
+    },
+    {
+      "path": "projetos/planejador/app.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8",
+      "sha256": "f17bdb6d3cbc99b57bd6a181f6839b93791ee51f8465474efdc0be26e044e667",
+      "matches_committed_blob": true
+    },
+    {
+      "path": "projetos/planejador/model.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8",
+      "sha256": "355e5b8f6962696e0ae14092be43cf514540f1c6759b01fe3ed17ba8514c6f12",
+      "matches_committed_blob": true
+    },
+    {
+      "path": "materiais/apresentacao.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "sha256": "f9da54929bbea0222e1a16f490f0cea04c254ffda8b395dd21ba72ff5cef2683",
+      "matches_committed_blob": true
+    },
+    {
+      "path": "materiais/etapa-inicial.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "sha256": "252386e07ddaf15c7af30fb15b46ef2c70c34d64ba7ef0e219afa4da6bc2c902",
+      "matches_committed_blob": true
+    }
+  ],
+  "pending": [
+    "Add project to LinkedIn profile - deferred by student",
+    "Record and publish five-minute YouTube video; add URL to report"
+  ]
+}

@@ -1,7 +1,18 @@
-__pycache__/
-*.py[cod]
+# Arquivos temporários do sistema e de editores
 .DS_Store
 Thumbs.db
+*.tmp
+*.bak
+~$*
+
+# Credenciais e configurações locais
 .env
 .env.*
+!.env.example
+
+# Saídas que não fazem parte do material acadêmico
+__pycache__/
+*.py[cod]
 node_modules/
+dist/
+build/

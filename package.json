@@ -1,7 +1,7 @@
 {
   "name": "study-hub-ti",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "description": "Portfólio acadêmico e planejador de estudos de Lucas Coutinho",
   "scripts": {
