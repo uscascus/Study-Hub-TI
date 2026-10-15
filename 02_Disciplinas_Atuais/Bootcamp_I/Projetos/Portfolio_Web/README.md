@@ -22,6 +22,6 @@ O GitHub Pages publica a pasta `/docs` da branch `Pitu/bootcamp-intermediaria`. 
 
 ## Materiais e decisões
 
-O conteúdo parte do documento da etapa inicial e dos projetos desta entrega; não inclui experiências, certificados ou métricas inventadas. A foto e os contatos já integravam o repositório. PDFs e apresentação são servidos junto com o site para evitar depender da navegação do GitHub.
+O conteúdo reúne meu perfil e os projetos do Bootcamp I. Os PDFs e a apresentação ficam disponíveis no próprio site.
 
 As alterações são registradas por commits e tags, com descrição em [CHANGELOG.md](../../../../CHANGELOG.md). Verificação: `python scripts/check_links.py`, testes do planejador e revisão visual em navegador. Para contribuir, consulte [CONTRIBUTING.md](../../../../CONTRIBUTING.md).

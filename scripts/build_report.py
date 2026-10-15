@@ -1,7 +1,3 @@
-"""Build the intermediate report. Requires reportlab; no network or credentials.
-
-Run from any directory. Add --published only after checking the live Pages site.
-"""
 from pathlib import Path
 import argparse
 import shutil
@@ -74,11 +70,11 @@ story.append(Spacer(1, 24))
 p('O Study Hub reúne atividades, projetos e documentos em um repositório organizado. Nesta etapa, o planejamento inicial evolui para um portfólio web e uma aplicação pessoal, com histórico de versões e instruções de execução.')
 link('Portfólio no GitHub Pages', SITE)
 link('Código da etapa intermediária', REPO)
-p('Estado desta entrega: site publicado e verificado. A inclusão do projeto no LinkedIn e a gravação/publicação do vídeo no YouTube permanecem pendentes.' if args.published else 'Estado desta revisão: implementação e testes locais concluídos; publicação web em preparação. LinkedIn e vídeo no YouTube pendentes.', 'SmallCustom')
+p('O site está publicado. Ainda falta adicionar o projeto ao meu LinkedIn e gravar a apresentação no YouTube.' if args.published else 'O site foi implementado e testado localmente. A publicação, a inclusão no LinkedIn e o vídeo no YouTube ainda estão em andamento.', 'SmallCustom')
 p('Prazo indicado no enunciado: 17/10/2026, às 23h55.', 'SmallCustom')
 
 heading(1, 'Planejamento e organização')
-p('Objetivo: centralizar minha produção acadêmica e pessoal, facilitar revisões e apresentar projetos reais como parte do perfil profissional. O repositório existente foi aproveitado para preservar o histórico e os materiais da etapa inicial.')
+p('Criei o Study Hub para reunir minhas atividades e projetos em um lugar só. Mantive a estrutura da etapa inicial e acrescentei o portfólio web e o planejador de estudos. Assim consigo revisar o que estudei e apresentar meus trabalhos.')
 tree = '''Study-Hub-TI/
 |-- 01_Apresentacao_e_Perfil/
 |-- 02_Disciplinas_Atuais/Bootcamp_I/
@@ -98,7 +94,7 @@ md.extend(['```text', tree, '```', ''])
 sub('Decisões de organização')
 p('O portfólio web é o projeto acadêmico do Bootcamp I. O planejador é o projeto pessoal. Cada um possui README com objetivo, tecnologias, execução, decisões e limitações. A implementação executável fica em docs, raiz pública do GitHub Pages; a documentação de cada projeto permanece na área correspondente, evitando duplicação de código.')
 sub('Manutenção')
-p('Usar nomes claros, atualizar materiais durante o semestre e criar commits com um objetivo específico. Não publicar credenciais ou dados de terceiros. Certificados, experiências e colaboração só serão apresentados quando existirem evidências reais.')
+p('Pretendo atualizar o repositório durante o semestre, separar os materiais por disciplina e registrar cada alteração em um commit. Cada projeto terá um README com instruções de uso e os principais aprendizados.')
 link('Estrutura e instruções do repositório', REPO + '/README.md')
 
 heading(2, 'Projetos implementados')
@@ -110,19 +106,19 @@ if shot.exists():
     image.drawHeight = 487 * image.imageHeight / image.imageWidth
     image.drawWidth = 487
     story.append(image)
-    p('Figura 1. Página inicial do portfólio publicado no GitHub Pages. Conteúdo e foto partem dos materiais já existentes no Study Hub.', 'SmallCustom')
+    p('Figura 1. Página inicial do Study Hub TI no GitHub Pages.', 'SmallCustom')
 sub('Pessoal: planejador de estudos')
 p('Aplicação em JavaScript que permite adicionar tarefas com prazo opcional, concluir e reabrir, filtrar por situação e excluir. Os dados ficam no localStorage do navegador. As regras de dados são separadas da interface para permitir testes sem dependências externas.')
 link('Experimentar o planejador', SITE + 'projetos/planejador/')
 p('Limites: não há conta, sincronização, backup, notificações ou edição de títulos. Limpar os dados do navegador remove as tarefas. Gravações simultâneas em duas abas podem sobrescrever alterações. Se o armazenamento falhar, um aviso informa que os dados da sessão não foram salvos.', 'SmallCustom')
 
 heading(3, 'Versionamento e colaboração')
-p('O remoto foi atualizado antes do desenvolvimento. A base é o commit d3c9894 de origin/main, que consolidava a etapa inicial. Não havia alterações locais, outras branches remotas ativas ou pull requests abertos na checagem inicial.')
-table(['Marco', 'Registro e finalidade'], [('Base anterior', 'd3c9894: etapa inicial preservada em main.'), ('Branch de trabalho', 'Pitu/bootcamp-intermediaria: desenvolvimento e publicação desta etapa.'), ('Versão 1.0.0', 'Primeira versão do portfólio, planejador e testes.'), ('Versão 1.1.0', 'Evolução da documentação, apresentação e relatório intermediário.')], [125, 362])
+p('A etapa inicial ficou registrada no commit d3c9894 da main. Para desenvolver o site, usei a branch Pitu/bootcamp-intermediaria. Os commits registram as mudanças, e as tags permitem consultar cada versão.')
+table(['Marco', 'Registro e finalidade'], [('Base anterior', 'd3c9894: etapa inicial preservada em main.'), ('Branch de trabalho', 'Pitu/bootcamp-intermediaria: desenvolvimento e publicação desta etapa.'), ('Versão 1.0.0', 'Primeira versão do portfólio, planejador e testes.'), ('Versão 1.1.0', 'Documentação, apresentação e relatório intermediário.'), ('Versão 1.1.1', 'Revisão dos textos do site e da entrega.')], [125, 362])
 sub('Fluxo de trabalho')
-p('Conferir git status e atualizar referências; trabalhar na branch ativa; executar os testes; revisar o diff; criar commits específicos e enviar a branch para o GitHub. As tags identificam versões recuperáveis. A main só recebe integração mediante autorização específica.')
-sub('Colaboração preparada')
-p('O guia CONTRIBUTING descreve abertura de issues, criação de branches, testes e pull requests. A revisão deve conferir funcionamento, acessibilidade, links e ausência de credenciais. Este é um trabalho individual; o fluxo está documentado, sem alegar participação ou revisão de terceiros.')
+p('Antes de alterar os arquivos, confiro o estado do repositório e atualizo as referências remotas. Depois executo os testes, reviso as mudanças e faço o commit. O GitHub Pages publica a branch intermediária; a main mantém a etapa inicial.')
+sub('Como colaborar')
+p('Sugestões e problemas podem ser registrados nas issues. Para propor uma mudança, o guia CONTRIBUTING explica como criar uma branch, testar a alteração e abrir um pull request. A revisão inclui funcionamento, acessibilidade e links.')
 link('Histórico de commits', 'https://github.com/uscascus/Study-Hub-TI/commits/Pitu/bootcamp-intermediaria/')
 link('Versões e tags', 'https://github.com/uscascus/Study-Hub-TI/tags')
 link('Guia de contribuição', REPO + '/CONTRIBUTING.md')
@@ -133,24 +129,24 @@ table(['Verificação', 'Resultado'], [('Regras do planejador', '7 testes automa
 sub('Reproduzir os testes')
 story.append(Preformatted('python -m http.server 8000 --directory docs\nnode --test tests/planner.test.mjs\npython scripts/check_links.py', styles['MonoCustom']))
 p('O teste local revelou que arquivos .mjs eram servidos como texto neste Windows. Os módulos foram alterados para .js e a configuração type: module foi adicionada ao projeto. O fluxo foi novamente verificado no navegador após a correção.', 'SmallCustom')
-p('Os testes validam os cenários descritos, não todos os navegadores ou situações possíveis. Falha de armazenamento é tratada no código; sua simulação em navegador não integra as evidências desta entrega.', 'SmallCustom')
+p('Os testes automatizados cobrem as regras das tarefas. A persistência foi conferida no navegador. O bloqueio do armazenamento é tratado no código, mas ainda não foi simulado no navegador.', 'SmallCustom')
 
 heading(5, 'LinkedIn e apresentação')
 sub('Integração com o perfil profissional')
-p('O site e o README apontam para o LinkedIn existente. A inclusão do portfólio no próprio perfil permanece pendente e será realizada pelo estudante, conforme escolha feita durante a preparação. O texto completo para copiar está em documento/Integracao_LinkedIn.md.')
-p('<b>Título sugerido:</b> Study Hub TI - Portfólio acadêmico e planejador de estudos.<br/><b>Descrição:</b> Projeto desenvolvido no Bootcamp I de Ciência da Computação no CEUB para organizar atividades e documentar minha evolução. Inclui portfólio no GitHub Pages e planejador com JavaScript, armazenamento local e testes.')
+p('O site e o README têm um link para meu LinkedIn. Ainda vou adicionar o Study Hub à seção de projetos do perfil. A descrição que usarei está em documento/Integracao_LinkedIn.md.')
+p('<b>Projeto:</b> Study Hub TI - Portfólio acadêmico e planejador de estudos.<br/><b>Descrição:</b> Projeto desenvolvido no Bootcamp I de Ciência da Computação no CEUB para organizar atividades e documentar minha evolução. Inclui portfólio no GitHub Pages e planejador com JavaScript, armazenamento local e testes.')
 link('Perfil profissional', PROFILE)
 sub('Apresentação de cinco minutos')
 table(['Tempo', 'Conteúdo e demonstração'], [('0:00 - 0:40', 'Perfil, contexto e objetivo do Study Hub.'), ('0:40 - 1:30', 'Estrutura do repositório e README de um projeto.'), ('1:30 - 2:20', 'Página publicada e materiais disponíveis.'), ('2:20 - 3:25', 'Planejador: adicionar, concluir, filtrar e recarregar.'), ('3:25 - 4:20', 'Commits, tags, testes e fluxo de colaboração.'), ('4:20 - 5:00', 'Contato, integração profissional e próximos passos.')], [105, 382])
 link('Slides e roteiro completo', SITE + 'materiais/apresentacao.html')
-p('Vídeo no YouTube: ainda não gravado/publicado. O roteiro inclui falas e momentos de demonstração; a duração final deve ser ajustada em ensaio com cronômetro. O link do vídeo precisa ser acrescentado antes da entrega definitiva.', 'SmallCustom')
+p('Ainda falta gravar e publicar o vídeo no YouTube. Organizei a apresentação em seis partes, com demonstração do repositório e do planejador. Depois da gravação, vou incluir o link neste relatório.', 'SmallCustom')
 
 heading(6, 'Critérios e finalização')
-table(['Requisito do desafio', 'Evidência e estado'], [('Planejamento e diretórios', 'Estrutura mantida e ampliada; planejamento e READMEs disponíveis.'), ('Projeto web e versão 1.0', 'Portfólio e planejador; commits e tags reais no GitHub.'), ('Alterações enviadas', 'Branch intermediária publicada, com evolução até a versão 1.1.0.' if args.published else 'Branch preparada; envio remoto em andamento.'), ('Documentação por projeto', 'README do portfólio, README do planejador e guia de contribuição.'), ('Repositório público e Pages', 'Repositório público e site HTTPS verificado.' if args.published else 'Repositório público; site em preparação.'), ('Integração com LinkedIn', 'Links no site prontos. Inclusão no perfil pendente pelo estudante.'), ('Apresentação no YouTube', 'Slides e roteiro prontos. Gravação, publicação e URL pendentes.'), ('Entrega individual em PDF', 'Este relatório, com estado real dos requisitos e links clicáveis.')], [165, 322])
-sub('Passos restantes antes do envio')
-p('1. Adicionar o projeto ao LinkedIn com o texto preparado e conferir o link salvo.<br/>2. Gravar a apresentação, publicar no YouTube e testar a URL sem login.<br/>3. Incluir o link do vídeo e a evidência do LinkedIn no relatório, atualizar o PDF e enviar no ambiente da disciplina até 17/10/2026 às 23h55.')
+table(['Requisito do desafio', 'Evidência e estado'], [('Planejamento e diretórios', 'Estrutura mantida e ampliada; planejamento e READMEs disponíveis.'), ('Projeto web e versão 1.0', 'Portfólio e planejador, com commits e tags no GitHub.'), ('Alterações enviadas', 'Branch intermediária publicada, com revisão na versão 1.1.1.' if args.published else 'Branch preparada; envio remoto em andamento.'), ('Documentação por projeto', 'README do portfólio, README do planejador e guia de contribuição.'), ('Repositório público e Pages', 'Repositório público e site HTTPS verificado.' if args.published else 'Repositório público; site em preparação.'), ('Integração com LinkedIn', 'Link no site. Falta adicionar o projeto ao meu perfil.'), ('Apresentação no YouTube', 'Slides e roteiro prontos. Gravação, publicação e URL pendentes.'), ('Entrega individual em PDF', 'Relatório com os projetos, testes e links da entrega.')], [165, 322])
+sub('Falta concluir')
+p('1. Adicionar o projeto ao meu LinkedIn.<br/>2. Gravar e publicar a apresentação no YouTube.<br/>3. Incluir o link do vídeo e o registro do LinkedIn neste relatório antes do envio, até 17/10/2026 às 23h55.')
 sub('Próximas evoluções')
-p('Adicionar trabalhos das próximas disciplinas e manter os READMEs atualizados. No planejador, avaliar edição de tarefas e exportação/importação de uma cópia dos dados. Nenhuma evolução futura é apresentada como funcionalidade já entregue.')
+p('Quero acrescentar os trabalhos das próximas disciplinas e manter os READMEs atualizados. No planejador, pretendo estudar como editar tarefas e exportar uma cópia da lista.')
 p('Referências: enunciado da Entrega Intermediária do Bootcamp I; materiais da etapa inicial deste repositório; documentação oficial do GitHub Pages e da API de Pages.', 'SmallCustom')
 link('GitHub Pages - documentação oficial', 'https://docs.github.com/en/pages')
 

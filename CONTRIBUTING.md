@@ -1,15 +1,15 @@
 # Como contribuir
 
-Este é um portfólio individual com um fluxo de colaboração documentado. A existência deste guia não significa que houve participação de terceiros ou revisão por outra pessoa.
+Sugestões, correções e melhorias são bem-vindas. Use as issues para discutir uma ideia antes de alterar o projeto.
 
 ## Propor uma alteração
 
 1. Abra uma issue descrevendo o problema, resultado esperado e, se possível, os passos para reproduzir.
-2. Para uma contribuição externa, faça um fork e crie uma branch a partir de `Pitu/bootcamp-intermediaria`, que contém a versão atual do site. Colaboradores com acesso podem usar uma branch autorizada no próprio repositório.
+2. Faça um fork e crie uma branch a partir de `Pitu/bootcamp-intermediaria`, que contém a versão atual do site.
 3. Mantenha o escopo pequeno. Novas branches do projeto usam o prefixo `Pitu/`; exemplos: `Pitu/corrigir-menu` ou `Pitu/documentar-projeto`.
 4. Execute o site por HTTP e confira a alteração em tela larga e estreita. Se mudar o planejador, rode `node --test tests/planner.test.mjs`. Rode também `python scripts/check_links.py`.
 5. Faça commits que expliquem a intenção: `feat: permite filtrar tarefas`, `fix: valida datas impossiveis`, `docs: explica armazenamento local`.
-6. Abra um pull request com destino à branch ativa, descrevendo problema, solução, testes e limitações. A integração em `main` depende de autorização do responsável.
+6. Abra um pull request para a branch ativa, descrevendo o problema, a solução e os testes realizados.
 
 ## Revisão
 

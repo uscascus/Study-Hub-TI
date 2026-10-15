@@ -12,10 +12,10 @@ Transformar o Study Hub inicial em um portfólio público com projetos documenta
 | Responsável | Lucas Coutinho |
 | Base | `origin/main`, commit `d3c98944091490b2404aa89d10596c099c2c9141` |
 | Propósito | Implementar e publicar a entrega intermediária do Bootcamp I |
-| Condição de conclusão | Site e PDF verificados, documentação dos dois projetos, roteiro e pendências externas identificadas |
-| Integração em main | Somente mediante autorização específica |
+| Entregas | Portfólio publicado, planejador de estudos, documentação, PDF e apresentação |
+| Publicação | Pasta /docs da branch intermediária |
 
-Antes do desenvolvimento, o remoto foi atualizado com `git fetch --prune origin`; havia apenas a branch `main`, sem pull requests abertos e sem alterações locais. Não havia GitHub Pages configurado.
+O projeto parte da estrutura e do documento da etapa inicial. Nesta etapa, acrescentei o site, o planejador de estudos e a publicação pelo GitHub Pages.
 
 ## Seções
 
@@ -28,7 +28,7 @@ Antes do desenvolvimento, o remoto foi atualizado com `git fetch --prune origin`
 
 ## Estratégia de versões
 
-`v1.0.0` registra a primeira versão web e aplicação. `v1.1.0` registra a evolução da documentação e da entrega. As tags identificam snapshots reais, sem fabricar datas anteriores ou colaboração inexistente.
+`v1.0.0` registra a primeira versão do site e do planejador. `v1.1.0` reúne a documentação e a entrega. `v1.1.1` traz a revisão dos textos. Cada tag permite consultar o projeto como ele estava naquela versão.
 
 ## Critérios de aceitação
 
@@ -36,4 +36,4 @@ Antes do desenvolvimento, o remoto foi atualizado com `git fetch --prune origin`
 - Portfólio adaptado a telas estreitas, sem recursos ou links locais quebrados.
 - Fluxo de tarefas testado, inclusive persistência e dados inválidos.
 - Projetos com objetivo, tecnologias, execução e limitações descritos.
-- PDF com links e estado real dos requisitos, sem alegar publicação de vídeo ou integração no LinkedIn sem evidência.
+- PDF com os links dos projetos, resumo do desenvolvimento e andamento da entrega.

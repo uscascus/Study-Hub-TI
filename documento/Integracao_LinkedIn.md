@@ -1,8 +1,8 @@
 # Integração com LinkedIn
 
-Perfil existente: https://www.linkedin.com/in/lucas-coutinho-chaul-27a139268/
+Meu perfil: https://www.linkedin.com/in/lucas-coutinho-chaul-27a139268/
 
-O portfólio e o README apontam para este perfil. Isso cria o caminho GitHub → LinkedIn, mas não comprova o caminho LinkedIn → portfólio. Para cumprir integralmente a integração, inclua o projeto no seu perfil autenticado e confira o link salvo.
+O portfólio já tem um link para meu perfil. Ainda falta adicionar o projeto ao LinkedIn.
 
 ## Conteúdo para a seção Projetos
 
@@ -14,9 +14,9 @@ O portfólio e o README apontam para este perfil. Isso cria o caminho GitHub →
 
 **Competências relacionadas:** Git, GitHub, HTML, CSS, JavaScript, documentação de software.
 
-## Evidência para a entrega
+## Registro da entrega
 
-Depois de salvar o projeto, abra seu perfil e confira o título, descrição e URL. Inclua um print da seção em sua entrega e registre o link do perfil no PDF. Também é possível destacar o portfólio na área de destaques do perfil. Os nomes das opções podem variar conforme a interface do LinkedIn.
+Após adicionar o projeto, vou registrar a seção do perfil e incluir essa informação no relatório.
 
 ## Texto opcional para publicação
 
@@ -26,4 +26,4 @@ Portfólio: https://uscascus.github.io/Study-Hub-TI/
 
 Código da etapa: https://github.com/uscascus/Study-Hub-TI/tree/Pitu/bootcamp-intermediaria
 
-Este texto é um rascunho. Nenhuma publicação no feed ou mensagem a terceiros faz parte desta preparação.
+Status: texto pronto; publicação ainda não realizada.

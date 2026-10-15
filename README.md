@@ -1,6 +1,6 @@
 # Study Hub TI
 
-Portfólio e espaço de organização acadêmica de **Lucas Coutinho**, estudante de **Ciência da Computação no CEUB**, turma A - 0726. Reúne projetos, atividades, documentação e um histórico de evolução durante o curso.
+Sou **Lucas Coutinho**, estudante de **Ciência da Computação no CEUB**, turma A - 0726. Uso este repositório para organizar as atividades do curso, documentar meus projetos e acompanhar o que aprendi em cada etapa.
 
 **[Acessar o portfólio](https://uscascus.github.io/Study-Hub-TI/)** · **[Experimentar o planejador](https://uscascus.github.io/Study-Hub-TI/projetos/planejador/)** · **[Entrega intermediária em PDF](entrega/Study_Hub_Etapa_Intermediaria_Lucas_Coutinho.pdf)**
 
@@ -15,22 +15,22 @@ Portfólio e espaço de organização acadêmica de **Lucas Coutinho**, estudant
 
 ```text
 Study-Hub-TI/
-├── 01_Apresentacao_e_Perfil/       # Perfil e foto
-├── 02_Disciplinas_Atuais/          # Atividades e projetos acadêmicos
+├── 01_Apresentacao_e_Perfil/
+├── 02_Disciplinas_Atuais/
 │   └── Bootcamp_I/
-│       ├── Atividades_e_Entregas/  # Etapa inicial e intermediária
+│       ├── Atividades_e_Entregas/
 │       └── Projetos/Portfolio_Web/
-├── 03_Projetos_e_Certificados/     # Projetos pessoais documentados
+├── 03_Projetos_e_Certificados/
 │   └── Planejador_de_Estudos/
-├── 04_Recursos_e_Referencias/      # Referências utilizadas
-├── docs/                         # Site publicado pelo GitHub Pages
-│   ├── assets/                   # Estilos, foto e favicon
-│   ├── materiais/                # PDFs e slides com roteiro
-│   └── projetos/planejador/       # Código da aplicação pessoal
-├── documento/                    # Documentos editáveis
-├── entrega/                      # PDFs para entrega
-├── scripts/                      # Verificação dos links locais
-└── tests/                        # Testes do planejador
+├── 04_Recursos_e_Referencias/
+├── docs/
+│   ├── assets/
+│   ├── materiais/
+│   └── projetos/planejador/
+├── documento/
+├── entrega/
+├── scripts/
+└── tests/
 ```
 
 ## Executar localmente
@@ -52,10 +52,11 @@ python scripts/check_links.py
 
 ## Versionamento e colaboração
 
-A etapa intermediária é desenvolvida na branch `Pitu/bootcamp-intermediaria`, baseada no commit `d3c9894` da `main`. A publicação do GitHub Pages usa a pasta `/docs` desta branch. A `main` preserva a etapa anterior até autorização de integração.
+A etapa intermediária está na branch `Pitu/bootcamp-intermediaria`, baseada no commit `d3c9894`. O GitHub Pages publica a pasta `/docs` desta branch. A `main` contém a etapa inicial.
 
 - `v1.0.0`: primeira versão do portfólio e do planejador.
 - `v1.1.0`: documentação, apresentação e entrega intermediária revisadas.
+- `v1.1.1`: revisão dos textos do site e da entrega.
 - Histórico e decisões: [CHANGELOG](CHANGELOG.md) e [planejamento](documento/Planejamento_Intermediaria.md).
 - Contribuições: consulte [CONTRIBUTING.md](CONTRIBUTING.md). Sugestões e problemas podem ser registrados em [Issues](https://github.com/uscascus/Study-Hub-TI/issues).
 
@@ -66,11 +67,11 @@ A etapa intermediária é desenvolvida na branch `Pitu/bootcamp-intermediaria`, 
 - [Texto e orientações para integração no LinkedIn](documento/Integracao_LinkedIn.md)
 - [Mapa de requisitos e verificação](02_Disciplinas_Atuais/Bootcamp_I/Atividades_e_Entregas/Etapa_Intermediaria/README.md)
 
-O roteiro e os slides apoiam a gravação. A inclusão no perfil do LinkedIn e o vídeo no YouTube só devem ser tratados como concluídos quando houver evidência dos respectivos registros.
+Ainda falta adicionar o projeto ao meu LinkedIn e publicar o vídeo da apresentação no YouTube.
 
 ## Privacidade e limites
 
-O portfólio usa apenas os dados de contato já presentes neste repositório. O planejador guarda tarefas no `localStorage`, sem servidor ou sincronização; limpar os dados do navegador remove as tarefas. Não publique credenciais, dados de terceiros ou materiais sem autorização. Esta versão não apresenta certificações ou experiências profissionais não comprovadas.
+O planejador guarda tarefas no `localStorage`, sem servidor ou sincronização entre dispositivos. Limpar os dados do navegador remove as tarefas. Não use a lista para senhas ou informações pessoais sensíveis.
 
 ## Contato
 

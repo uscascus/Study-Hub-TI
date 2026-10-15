@@ -1,5 +1,11 @@
 # Histórico de versões
 
+## 1.1.1 - 15/10/2026
+
+- Revisa os textos do site, da apresentação e do relatório.
+- Remove comentários desnecessários dos arquivos de código.
+- Simplifica os READMEs e as anotações da entrega.
+
 ## 1.1.0 - 15/10/2026
 
 - Amplia a documentação principal com execução, projetos e versionamento.

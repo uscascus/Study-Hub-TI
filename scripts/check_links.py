@@ -1,4 +1,3 @@
-"""Check local HTML resources, anchors and Markdown file targets; no network access."""
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit

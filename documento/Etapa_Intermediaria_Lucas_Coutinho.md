@@ -20,7 +20,7 @@ O Study Hub reúne atividades, projetos e documentos em um repositório organiza
 **Código da etapa intermediária**
 [https://github.com/uscascus/Study-Hub-TI/tree/Pitu/bootcamp-intermediaria](https://github.com/uscascus/Study-Hub-TI/tree/Pitu/bootcamp-intermediaria)
 
-Estado desta entrega: site publicado e verificado. A inclusão do projeto no LinkedIn e a gravação/publicação do vídeo no YouTube permanecem pendentes.
+O site está publicado. Ainda falta adicionar o projeto ao meu LinkedIn e gravar a apresentação no YouTube.
 
 Prazo indicado no enunciado: 17/10/2026, às 23h55.
 
@@ -28,7 +28,7 @@ BOOTCAMP I / 01
 
 ## Planejamento e organização
 
-Objetivo: centralizar minha produção acadêmica e pessoal, facilitar revisões e apresentar projetos reais como parte do perfil profissional. O repositório existente foi aproveitado para preservar o histórico e os materiais da etapa inicial.
+Criei o Study Hub para reunir minhas atividades e projetos em um lugar só. Mantive a estrutura da etapa inicial e acrescentei o portfólio web e o planejador de estudos. Assim consigo revisar o que estudei e apresentar meus trabalhos.
 
 ```text
 Study-Hub-TI/
@@ -53,7 +53,7 @@ O portfólio web é o projeto acadêmico do Bootcamp I. O planejador é o projet
 
 ### Manutenção
 
-Usar nomes claros, atualizar materiais durante o semestre e criar commits com um objetivo específico. Não publicar credenciais ou dados de terceiros. Certificados, experiências e colaboração só serão apresentados quando existirem evidências reais.
+Pretendo atualizar o repositório durante o semestre, separar os materiais por disciplina e registrar cada alteração em um commit. Cada projeto terá um README com instruções de uso e os principais aprendizados.
 
 **Estrutura e instruções do repositório**
 [https://github.com/uscascus/Study-Hub-TI/tree/Pitu/bootcamp-intermediaria/README.md](https://github.com/uscascus/Study-Hub-TI/tree/Pitu/bootcamp-intermediaria/README.md)
@@ -66,7 +66,7 @@ BOOTCAMP I / 02
 
 Página em HTML e CSS com apresentação, interesses em back-end e segurança da informação, projetos, percurso, PDFs, slides e contato. O layout se adapta a computador e celular. A navegação inclui rótulos, foco visível e acesso direto ao conteúdo pelo teclado.
 
-Figura 1. Página inicial do portfólio publicado no GitHub Pages. Conteúdo e foto partem dos materiais já existentes no Study Hub.
+Figura 1. Página inicial do Study Hub TI no GitHub Pages.
 
 ### Pessoal: planejador de estudos
 
@@ -81,22 +81,23 @@ BOOTCAMP I / 03
 
 ## Versionamento e colaboração
 
-O remoto foi atualizado antes do desenvolvimento. A base é o commit d3c9894 de origin/main, que consolidava a etapa inicial. Não havia alterações locais, outras branches remotas ativas ou pull requests abertos na checagem inicial.
+A etapa inicial ficou registrada no commit d3c9894 da main. Para desenvolver o site, usei a branch Pitu/bootcamp-intermediaria. Os commits registram as mudanças, e as tags permitem consultar cada versão.
 
 Marco | Registro e finalidade
 --- | ---
 Base anterior | d3c9894: etapa inicial preservada em main.
 Branch de trabalho | Pitu/bootcamp-intermediaria: desenvolvimento e publicação desta etapa.
 Versão 1.0.0 | Primeira versão do portfólio, planejador e testes.
-Versão 1.1.0 | Evolução da documentação, apresentação e relatório intermediário.
+Versão 1.1.0 | Documentação, apresentação e relatório intermediário.
+Versão 1.1.1 | Revisão dos textos do site e da entrega.
 
 ### Fluxo de trabalho
 
-Conferir git status e atualizar referências; trabalhar na branch ativa; executar os testes; revisar o diff; criar commits específicos e enviar a branch para o GitHub. As tags identificam versões recuperáveis. A main só recebe integração mediante autorização específica.
+Antes de alterar os arquivos, confiro o estado do repositório e atualizo as referências remotas. Depois executo os testes, reviso as mudanças e faço o commit. O GitHub Pages publica a branch intermediária; a main mantém a etapa inicial.
 
-### Colaboração preparada
+### Como colaborar
 
-O guia CONTRIBUTING descreve abertura de issues, criação de branches, testes e pull requests. A revisão deve conferir funcionamento, acessibilidade, links e ausência de credenciais. Este é um trabalho individual; o fluxo está documentado, sem alegar participação ou revisão de terceiros.
+Sugestões e problemas podem ser registrados nas issues. Para propor uma mudança, o guia CONTRIBUTING explica como criar uma branch, testar a alteração e abrir um pull request. A revisão inclui funcionamento, acessibilidade e links.
 
 **Histórico de commits**
 [https://github.com/uscascus/Study-Hub-TI/commits/Pitu/bootcamp-intermediaria/](https://github.com/uscascus/Study-Hub-TI/commits/Pitu/bootcamp-intermediaria/)
@@ -125,7 +126,7 @@ Publicação HTTPS | GitHub Pages publicado e respostas HTTP 200 conferidas.
 
 O teste local revelou que arquivos .mjs eram servidos como texto neste Windows. Os módulos foram alterados para .js e a configuração type: module foi adicionada ao projeto. O fluxo foi novamente verificado no navegador após a correção.
 
-Os testes validam os cenários descritos, não todos os navegadores ou situações possíveis. Falha de armazenamento é tratada no código; sua simulação em navegador não integra as evidências desta entrega.
+Os testes automatizados cobrem as regras das tarefas. A persistência foi conferida no navegador. O bloqueio do armazenamento é tratado no código, mas ainda não foi simulado no navegador.
 
 BOOTCAMP I / 05
 
@@ -133,9 +134,9 @@ BOOTCAMP I / 05
 
 ### Integração com o perfil profissional
 
-O site e o README apontam para o LinkedIn existente. A inclusão do portfólio no próprio perfil permanece pendente e será realizada pelo estudante, conforme escolha feita durante a preparação. O texto completo para copiar está em documento/Integracao_LinkedIn.md.
+O site e o README têm um link para meu LinkedIn. Ainda vou adicionar o Study Hub à seção de projetos do perfil. A descrição que usarei está em documento/Integracao_LinkedIn.md.
 
-**Título sugerido:** Study Hub TI - Portfólio acadêmico e planejador de estudos.
+**Projeto:** Study Hub TI - Portfólio acadêmico e planejador de estudos.
 **Descrição:** Projeto desenvolvido no Bootcamp I de Ciência da Computação no CEUB para organizar atividades e documentar minha evolução. Inclui portfólio no GitHub Pages e planejador com JavaScript, armazenamento local e testes.
 
 **Perfil profissional**
@@ -155,7 +156,7 @@ Tempo | Conteúdo e demonstração
 **Slides e roteiro completo**
 [https://uscascus.github.io/Study-Hub-TI/materiais/apresentacao.html](https://uscascus.github.io/Study-Hub-TI/materiais/apresentacao.html)
 
-Vídeo no YouTube: ainda não gravado/publicado. O roteiro inclui falas e momentos de demonstração; a duração final deve ser ajustada em ensaio com cronômetro. O link do vídeo precisa ser acrescentado antes da entrega definitiva.
+Ainda falta gravar e publicar o vídeo no YouTube. Organizei a apresentação em seis partes, com demonstração do repositório e do planejador. Depois da gravação, vou incluir o link neste relatório.
 
 BOOTCAMP I / 06
 
@@ -164,23 +165,23 @@ BOOTCAMP I / 06
 Requisito do desafio | Evidência e estado
 --- | ---
 Planejamento e diretórios | Estrutura mantida e ampliada; planejamento e READMEs disponíveis.
-Projeto web e versão 1.0 | Portfólio e planejador; commits e tags reais no GitHub.
-Alterações enviadas | Branch intermediária publicada, com evolução até a versão 1.1.0.
+Projeto web e versão 1.0 | Portfólio e planejador, com commits e tags no GitHub.
+Alterações enviadas | Branch intermediária publicada, com revisão na versão 1.1.1.
 Documentação por projeto | README do portfólio, README do planejador e guia de contribuição.
 Repositório público e Pages | Repositório público e site HTTPS verificado.
-Integração com LinkedIn | Links no site prontos. Inclusão no perfil pendente pelo estudante.
+Integração com LinkedIn | Link no site. Falta adicionar o projeto ao meu perfil.
 Apresentação no YouTube | Slides e roteiro prontos. Gravação, publicação e URL pendentes.
-Entrega individual em PDF | Este relatório, com estado real dos requisitos e links clicáveis.
+Entrega individual em PDF | Relatório com os projetos, testes e links da entrega.
 
-### Passos restantes antes do envio
+### Falta concluir
 
-1. Adicionar o projeto ao LinkedIn com o texto preparado e conferir o link salvo.
-2. Gravar a apresentação, publicar no YouTube e testar a URL sem login.
-3. Incluir o link do vídeo e a evidência do LinkedIn no relatório, atualizar o PDF e enviar no ambiente da disciplina até 17/10/2026 às 23h55.
+1. Adicionar o projeto ao meu LinkedIn.
+2. Gravar e publicar a apresentação no YouTube.
+3. Incluir o link do vídeo e o registro do LinkedIn neste relatório antes do envio, até 17/10/2026 às 23h55.
 
 ### Próximas evoluções
 
-Adicionar trabalhos das próximas disciplinas e manter os READMEs atualizados. No planejador, avaliar edição de tarefas e exportação/importação de uma cópia dos dados. Nenhuma evolução futura é apresentada como funcionalidade já entregue.
+Quero acrescentar os trabalhos das próximas disciplinas e manter os READMEs atualizados. No planejador, pretendo estudar como editar tarefas e exportar uma cópia da lista.
 
 Referências: enunciado da Entrega Intermediária do Bootcamp I; materiais da etapa inicial deste repositório; documentação oficial do GitHub Pages e da API de Pages.
 

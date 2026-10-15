@@ -23,7 +23,7 @@
 | README por projeto | Portfólio web e Planejador de estudos |
 | Repositório público | https://github.com/uscascus/Study-Hub-TI |
 | GitHub Pages | Pasta /docs da branch intermediária |
-| Integração com LinkedIn | Link no site; inclusão do projeto no perfil pendente pelo estudante |
+| Integração com LinkedIn | Link no site; falta adicionar o projeto ao meu perfil |
 | Apresentação de cinco minutos | Slides e roteiro prontos; vídeo no YouTube pendente |
 | PDF individual | Relatório na pasta entrega |
 
@@ -31,8 +31,10 @@
 
 Sete testes do modelo do planejador; fluxos reais de inclusão, conclusão, filtro de pendentes, persistência após recarregar, reabertura e exclusão conferidos no navegador. Layout revisto em 1366 px e 390 px, além do tamanho padrão do navegador. Links locais e âncoras conferidos com scripts/check_links.py.
 
-O relatório pode ser reconstruído com `python scripts/build_report.py` (requer reportlab). O argumento `--published` só deve ser usado após confirmar o site remoto. As cópias em entrega e docs/materiais são idênticas. A fonte de geração é o script; alterações manuais no Markdown não são automaticamente importadas pelo gerador.
+Para gerar o relatório: `python scripts/build_report.py --published` (requer reportlab). O script atualiza o PDF de entrega, a cópia do site e o documento em Markdown.
 
-## Pendências externas
+## Falta concluir
 
-O estudante optou por incluir o projeto no LinkedIn depois. Ainda não possui vídeo desta etapa; precisa gravar, publicar e inserir a URL no relatório. A preparação técnica não comprova esses dois requisitos externos.
+- Adicionar o projeto ao meu LinkedIn.
+- Gravar e publicar a apresentação no YouTube.
+- Incluir o link do vídeo no relatório antes do envio.
